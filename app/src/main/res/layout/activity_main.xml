@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button1"
+
+
+
+       android:layout_gravity="center_horizontal"
+android:background="@drawable/arunlogo"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+
+
+
+
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:linksClickable="true"
+        android:longClickable="true"
+        android:text="Register Here"
+        android:background="@drawable/backgroundbutton"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:linksClickable="true"
+        android:longClickable="true"
+        android:text="Complaint Here"
+        android:background="@drawable/backgroundbutton"
+        />
+</LinearLayout>
+</ScrollView>
